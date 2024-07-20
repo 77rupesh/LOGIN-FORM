@@ -1,0 +1,194 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.box{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(42, 42, 48, 0.932), rgba(35, 35, 41, 0.1)), url(https://images.pexels.com/photos/461940/pexels-photo-461940.jpeg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+.form{
+    width: 25%;
+    height: 80%;
+    background-color:transparent;
+    /* background-color: blue; */
+    border-style: 20px solid;
+    transform: translate(38vw, 5vw);
+    box-shadow: 3px 3px 30px  rgb(19, 21, 26);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    text-align: center;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(245, 238, 238, 0.886);
+    font-size: 22px;
+    font-weight: 600;
+}
+.email {
+text-align: center;
+margin-top: 35px;
+
+}
+.email input{
+    height: 35px;
+    width:80%;
+    padding-left: 30px;
+}
+
+.password{
+    text-align: center;
+    margin-top: 12px;
+    position: relative;
+}
+.password input{
+    height: 35px;
+    width: 80%;
+    padding-left: 30px;
+
+
+}
+.email i{
+    position: absolute;
+    margin-left: 9px;
+    margin-top: 8px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.667);
+    
+}
+
+
+
+.password i{
+    position: absolute;
+    margin-left: 9px;
+    margin-top: 8px;
+    color: rgba(53, 46, 46, 0.854);
+}
+
+
+
+
+
+p{
+    padding-left: 31px;
+    color: white;
+    padding-top: 10px;
+font-size: 13px;
+}
+.log{
+    text-align: center;
+    margin-top: 10px;
+}
+.log button{
+width: 80%;
+height: 35px;
+background-color: rgb(83, 83, 239);
+border: none;
+color: white;
+
+}
+.log button:hover{
+background-color: transparent;
+cursor: pointer;
+font-size: 18px;
+transition: 1s;
+
+}
+input:hover{
+cursor: pointer;
+background-color: black;
+color: white;
+transition: 1s;
+
+
+}
+
+
+
+
+.one p{
+    padding-left: 37%;
+}
+.two {
+text-align: center;
+position: relative;
+}
+.two button{
+    margin-top: 25px;
+    width: 39%;
+    height: 35px;
+    border: none;
+}
+
+.two .ri-facebook-fill{
+position: absolute;
+margin-top: 32px;
+margin-left: 15px;
+color: white;
+}
+.two .facebook{
+    background-color: rgba(36, 92, 156, 0.968);
+color: white;
+padding-left: 12px;
+}
+.two .instagram{
+    color: white;
+    background: linear-gradient(to right, #9900cc 0%, #ff3399 100%);;
+padding-left: 12px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.two .ri-instagram-line{
+    position: absolute;
+    margin-top: 32px;
+    margin-left: 14px;
+    color: white;
+}
+
+
+
+
+
+.last p{
+    margin-top: 10px;
+    margin-left:15px ;
+}
+span{
+    color: rgb(6, 250, 6);
+}
+.two button:hover{
+background-color: transparent;
+cursor: pointer;
+transition: 1s;
+}
+span:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 7);
+    text-decoration: underline blue;
+    box-sizing: border-box;
+    transform: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
